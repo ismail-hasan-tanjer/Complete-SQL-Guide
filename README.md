@@ -1,9 +1,20 @@
-# Complete SQL Guide
+# 🚀 Complete SQL Guide
 
-![SQL Logo](https://upload.wikimedia.org/wikipedia/commons/8/87/Sql_data_base_with_logo.png)
+![SQL Banner](https://upload.wikimedia.org/wikipedia/commons/8/87/Sql_data_base_with_logo.png)
+
+[![GitHub Repo Stars](https://img.shields.io/github/stars/ismail-hasan-tanjer/Complete-SQL-Guide?style=social)](https://github.com/ismail-hasan-tanjer/Complete-SQL-Guide)
+[![GitHub Forks](https://img.shields.io/github/forks/ismail-hasan-tanjer/Complete-SQL-Guide?style=social)](https://github.com/ismail-hasan-tanjer/Complete-SQL-Guide/fork)
+[![License](https://img.shields.io/github/license/ismail-hasan-tanjer/Complete-SQL-Guide)](LICENSE)
 
 ## 📌 Introduction
-Welcome to the **Complete SQL Guide**! 🚀 This repository is designed for beginners to advanced learners who want to master SQL step by step. It covers everything from basic queries to advanced database management.
+Welcome to the **Complete SQL Guide**! 🚀 This repository is a structured, step-by-step resource to master SQL from scratch to an advanced level. Whether you're a beginner or a professional, you'll find value here.
+
+## 🔥 Why This Repository?
+✅ Covers all essential SQL topics (Basic ➝ Advanced)  
+✅ Hands-on SQL scripts for practical learning  
+✅ Supports multiple databases (MySQL, PostgreSQL, SQLite, etc.)  
+✅ Real-world examples and projects  
+✅ Optimized for learning and job preparation  
 
 ## 🛠 Supported Databases
 ✅ MySQL  
@@ -60,11 +71,35 @@ git clone https://github.com/ismail-hasan-tanjer/Complete-SQL-Guide.git
 ```sh
 cd Complete-SQL-Guide
 ```
-3️⃣ Start exploring SQL scripts inside the folders.
+3️⃣ Explore SQL scripts inside the `scripts/` folder.
+
+## 📂 Repository Structure
+```
+Complete-SQL-Guide/
+│── scripts/
+│   ├── basic.sql
+│   ├── advanced.sql
+│   └── examples/
+│── README.md
+│── LICENSE
+└── .gitignore
+```
+
+## 📌 Roadmap
+📍 **Phase 1**: SQL Fundamentals  
+📍 **Phase 2**: Intermediate SQL Concepts  
+📍 **Phase 3**: Advanced SQL Optimization  
+📍 **Phase 4**: Real-World Projects & Use Cases  
 
 ## 🤝 Contributing
-Contributions are welcome! If you want to add or improve anything, feel free to fork the repo and create a pull request.
+Contributions are welcome! If you have any improvements or new SQL scripts, feel free to fork this repo and submit a pull request.
+
+## 🚀 Future Plans
+✅ More real-world SQL projects  
+✅ Optimization techniques for large-scale databases  
+✅ SQL interview preparation section  
 
 ## 📧 Contact
 📩 **Email:** tanjerinfo@gmail.com  
 🔗 **LinkedIn:** [Md. Ismail Hasan Tanjer](https://www.linkedin.com/in/ismail-hasan-tanjer/)  
+
