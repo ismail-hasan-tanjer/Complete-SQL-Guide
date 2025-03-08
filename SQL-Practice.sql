@@ -56,6 +56,25 @@ CREATE TABLE Students (
     Grade VARCHAR(10)
 );
 
+-- Data Insert 
+
+INSERT INTO Students (ID, Name, Age, Grade) VALUES
+(1, 'Rahim', 20, 'A'),
+(2, 'Karim', 22, 'B');
+
+-- Dta Retrive 
+
+SELECT * FROM Students;
+SELECT Name, Age FROM Students WHERE Grade = 'A';
+
+--  Data Operate 
+UPDATE Students SET Age = 23 WHERE ID = 1;
+
+-- Data Delete 
+DELETE FROM Students WHERE ID = 2;
+
+
+
 
 
 
