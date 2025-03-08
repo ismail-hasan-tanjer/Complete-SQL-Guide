@@ -9,3 +9,7 @@
 
 SELECT * FROM Students; 
 
+--Inserting Data
+
+INSERT INTO Students (ID, Name, Age) VALUES (1, 'Rahim', 22);
+
