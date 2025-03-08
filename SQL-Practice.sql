@@ -22,4 +22,14 @@ UPDATE Students SET Age = 23 WHERE ID = 1;
 
 DELETE FROM Students WHERE ID = 1;
 
+--Creating Tables
+
+CREATE TABLE Students (
+    ID INT PRIMARY KEY,
+    Name VARCHAR(50),
+    Age INT
+);
+
+
+
 
