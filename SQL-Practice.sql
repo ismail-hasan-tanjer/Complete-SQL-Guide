@@ -13,3 +13,13 @@ SELECT * FROM Students;
 
 INSERT INTO Students (ID, Name, Age) VALUES (1, 'Rahim', 22);
 
+
+--Updating Data
+
+UPDATE Students SET Age = 23 WHERE ID = 1;
+
+--Deleting Data
+
+DELETE FROM Students WHERE ID = 1;
+
+
