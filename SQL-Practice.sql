@@ -31,5 +31,35 @@ CREATE TABLE Students (
 );
 
 
+/* 
+CREATE DATABASE
+CREATE TABLE
+INSERT INTO
+SELECT
+UPDATE
+DELETE 
+*/
+
+--Basic SQL commands of MySQL
+
+--Creating a new database
+
+CREATE DATABASE School;
+USE School;
+
+-- New table Create 
+
+CREATE TABLE Students (
+    ID INT PRIMARY KEY,
+    Name VARCHAR(50),
+    Age INT,
+    Grade VARCHAR(10)
+);
+
+
+
+
+
+
 
 
