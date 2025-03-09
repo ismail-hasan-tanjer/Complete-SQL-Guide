@@ -73,6 +73,11 @@ UPDATE Students SET Age = 23 WHERE ID = 1;
 -- Data Delete 
 DELETE FROM Students WHERE ID = 2;
 
+--PostgreSQL Install 
+
+sudo apt update
+sudo apt install postgresql postgresql-contrib
+
 
 
 
