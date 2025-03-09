@@ -78,6 +78,17 @@ DELETE FROM Students WHERE ID = 2;
 sudo apt update
 sudo apt install postgresql postgresql-contrib
 
+-- Used SQL command 
+
+CREATE DATABASE company;
+\c company;
+
+CREATE TABLE employees (
+    id SERIAL PRIMARY KEY,
+    name VARCHAR(100),
+    salary DECIMAL
+);
+
 
 
 
