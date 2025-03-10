@@ -120,6 +120,27 @@ BEGIN
    DBMS_OUTPUT.PUT_LINE('Hello, Oracle!');
 END;
 
+--INNER JOIN (shows common data)
+
+CREATE TABLE Students (
+    StudentID INT PRIMARY KEY,
+    Name VARCHAR(50)
+);
+
+CREATE TABLE Courses (
+    CourseID INT PRIMARY KEY,
+    StudentID INT,
+    CourseName VARCHAR(50),
+    FOREIGN KEY (StudentID) REFERENCES Students(StudentID)
+);
+
+INSERT INTO Students VALUES (1, 'Rahim'), (2, 'Karim');
+INSERT INTO Courses VALUES (101, 1, 'Math'), (102, 1, 'Physics'), (103, 2, 'Biology');
+
+SELECT Students.Name, Courses.CourseName
+FROM Students
+INNER JOIN Courses ON Students.StudentID = Courses.StudentID;
+
 
 
 
