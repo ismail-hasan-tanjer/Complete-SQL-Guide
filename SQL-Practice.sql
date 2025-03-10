@@ -96,6 +96,19 @@ CREATE TABLE employees (
 sudo apt install sqlite3
 sqlite3 mydatabase.db
 
+--Creating tables and inserting data:
+CREATE TABLE users (id INTEGER PRIMARY KEY, name TEXT);
+INSERT INTO users (name) VALUES ('John Doe');
+SELECT * FROM users;
+
+--Microsoft SQL Server - Enterprise Database
+--SQL Server is mainly used in corporate companies.
+
+sudo apt update
+sudo apt install mssql-server
+
+
+
 
 
 
