@@ -107,6 +107,19 @@ SELECT * FROM users;
 sudo apt update
 sudo apt install mssql-server
 
+--Creating SQL Server tables and inserting data:
+CREATE TABLE employees (id INT PRIMARY KEY, name NVARCHAR(100));
+INSERT INTO employees VALUES (1, 'John Smith');
+
+--Oracle Database - Professional Database
+
+--Oracle database is used for large companies and banking systems.
+--Oracle DB Install:
+-- PL/SQL used
+BEGIN
+   DBMS_OUTPUT.PUT_LINE('Hello, Oracle!');
+END;
+
 
 
 
