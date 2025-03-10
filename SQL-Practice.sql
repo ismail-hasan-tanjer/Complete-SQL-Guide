@@ -89,6 +89,12 @@ CREATE TABLE employees (
     salary DECIMAL
 );
 
+--SQLite - Simple and lightweight database
+--SQLite is perfect for mobile apps and small scale projects.
+-- Install SQLite:
+
+sudo apt install sqlite3
+sqlite3 mydatabase.db
 
 
 
