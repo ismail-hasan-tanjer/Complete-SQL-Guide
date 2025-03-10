@@ -141,6 +141,11 @@ SELECT Students.Name, Courses.CourseName
 FROM Students
 INNER JOIN Courses ON Students.StudentID = Courses.StudentID;
 
+--LEFT JOIN (shows all data from the left table, NULL if none)
+SELECT Students.Name, Courses.CourseName
+FROM Students
+LEFT JOIN Courses ON Students.StudentID = Courses.StudentID;
+
 
 
 
