@@ -156,6 +156,10 @@ SELECT * FROM Students;
 --Now it can be easily run:
 SELECT * FROM TempStudents;
 
+--Microsoft SQL Server: Detailed Analysis
+--What is Microsoft SQL Server?
+--Microsoft SQL Server (MSSQL) is a Relational Database Management System (RDBMS) developed by Microsoft. It helps in storing, managing and analyzing data using Structured Query Language (SQL). It is widely used as a database management system for small, medium and large businesses.
+
 
 
 
