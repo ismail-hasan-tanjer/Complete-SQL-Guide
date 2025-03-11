@@ -169,7 +169,11 @@ SELECT * FROM TempStudents;
 -- Big data support – Big Data Clusters and Machine Learning Services
 -- High performance – Query optimization and indexing
 
-
+--How to Implement Microsoft SQL Server?
+--Step 1: Install Microsoft SQL Server
+--1️ Download Microsoft SQL Server from the official website
+--2 Follow the installation wizard to complete the setup
+--3️ Install SQL Server Management Studio (SSMS), which is a GUI-based management tool
 
 
 
