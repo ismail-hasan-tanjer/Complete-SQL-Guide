@@ -147,6 +147,15 @@ FROM Students
 LEFT JOIN Courses ON Students.StudentID = Courses.StudentID;
 
 
+--SQLite STORED PROCEDURE (not available in SQLite, but can be done via functions)
+--SQLite does not have direct Stored Procedures, but functions can be used.
+
+CREATE TEMP TABLE TempStudents AS
+SELECT * FROM Students;
+
+--Now it can be easily run:
+SELECT * FROM TempStudents;
+
 
 
 
