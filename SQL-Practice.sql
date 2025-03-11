@@ -195,6 +195,14 @@ VALUES (1, 'Rahim', 18, 'A'),
        (2, 'Karim', 19, 'B'),
        (3, 'Jamal', 20, 'A+');
 
+--Retrieving data from the database
+SELECT * FROM Students;
+
+--Updating data
+UPDATE Students
+SET Grade = 'A'
+WHERE StudentID = 2;
+
 
 
 
