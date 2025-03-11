@@ -189,6 +189,11 @@ CREATE TABLE Students (
 );
 
 
+--Inserting data into the database
+INSERT INTO Students (StudentID, Name, Age, Grade)
+VALUES (1, 'Rahim', 18, 'A'),
+       (2, 'Karim', 19, 'B'),
+       (3, 'Jamal', 20, 'A+');
 
 
 
