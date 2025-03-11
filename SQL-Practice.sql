@@ -175,6 +175,19 @@ SELECT * FROM TempStudents;
 --2 Follow the installation wizard to complete the setup
 --3️ Install SQL Server Management Studio (SSMS), which is a GUI-based management tool
 
+--Creating a new database
+CREATE DATABASE SchoolDB;
+
+--Creating a new table 
+USE SchoolDB;
+
+CREATE TABLE Students (
+    StudentID INT PRIMARY KEY,
+    Name NVARCHAR(50),
+    Age INT,
+    Grade NVARCHAR(10)
+);
+
 
 
 
