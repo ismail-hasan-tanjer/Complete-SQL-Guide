@@ -160,7 +160,14 @@ SELECT * FROM TempStudents;
 --What is Microsoft SQL Server?
 --Microsoft SQL Server (MSSQL) is a Relational Database Management System (RDBMS) developed by Microsoft. It helps in storing, managing and analyzing data using Structured Query Language (SQL). It is widely used as a database management system for small, medium and large businesses.
 
-
+--Features of Microsoft SQL Server
+--Relational database – Data is stored and managed through tables
+-- T-SQL (Transact-SQL) – Specialized SQL language for SQL Server
+-- Data security and encryption – Data Masking, Transparent Data Encryption (TDE)
+-- Data backup and recovery – Automated backup & disaster recovery
+-- Integration and reporting – SSIS (Integration Services), SSRS (Reporting Services)
+-- Big data support – Big Data Clusters and Machine Learning Services
+-- High performance – Query optimization and indexing
 
 
 
