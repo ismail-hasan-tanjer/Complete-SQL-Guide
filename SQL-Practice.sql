@@ -203,6 +203,22 @@ UPDATE Students
 SET Grade = 'A'
 WHERE StudentID = 2;
 
+--Deleting data
+
+DELETE FROM Students WHERE StudentID = 3;
+
+
+--Advanced SQL Guide
+-- 1. Stored Procedures & Functions
+-- A Stored Procedure is a reusable SQL code block, which can be written once and used repeatedly.
+
+-- Creating a Stored Procedure:
+
+CREATE PROCEDURE GetAllCustomers  
+AS  
+BEGIN  
+    SELECT * FROM Customers;  
+END;
 
 
 
