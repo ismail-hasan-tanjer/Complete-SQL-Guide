@@ -234,5 +234,12 @@ END;
 --Function usage:
 SELECT dbo.GetNameLength('Ismail Hasan Tanjer');
 
+--Views & Indexing
+--Views: Creates Virtual Tables in the database, which helps in running queries faster.
+--Creating Views:
+CREATE VIEW CustomerView AS  
+SELECT CustomerID, Name, Email FROM Customers WHERE Active = 1;
+
+
 
 
