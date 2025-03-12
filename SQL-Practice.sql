@@ -220,5 +220,19 @@ BEGIN
     SELECT * FROM Customers;  
 END;
 
+--Calling Stored Procedure:
+EXEC GetAllCustomers;
+
+--Creating a function (example: finding the length of a name)
+CREATE FUNCTION GetNameLength(@Name VARCHAR(100))  
+RETURNS INT  
+AS  
+BEGIN  
+    RETURN LEN(@Name);  
+END;
+
+--Function usage:
+SELECT dbo.GetNameLength('Ismail Hasan Tanjer');
+
 
 
