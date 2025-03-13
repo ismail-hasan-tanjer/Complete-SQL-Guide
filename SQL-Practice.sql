@@ -276,3 +276,15 @@ WITH EmployeeHierarchy AS (
 )  
 SELECT * FROM EmployeeHierarchy;
 
+
+
+---SQL Performance Optimization Techniques...
+/*
+🔹 Optimize queries using EXPLAIN or EXECUTION PLAN
+🔹 Avoid unnecessary SELECT * and use specific columns
+🔹 Execute queries faster through indexing
+🔹 Manage Big Data using Partitioning
+🔹 Reduce query load using caching  */
+
+
+
