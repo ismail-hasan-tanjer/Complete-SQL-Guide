@@ -287,4 +287,40 @@ SELECT * FROM EmployeeHierarchy;
 🔹 Reduce query load using caching  */
 
 
+--Big Data & SQL Integration Guide
+
+/*SQL is integrated with Azure SQL, AWS RDS, and PySpark SQL for Big Data usage. It makes it easy to process large amounts of data and can be used in AI, Machine Learning, and Data Analytics.*/
+
+1. Azure SQL Database Integration
+
+Microsoft Azure SQL Cloud-Based Relational Database that provides Scalability, Security & High Availability.
+
+Steps to create Azure SQL:
+1️ Log in to the Azure Portal.
+2️ Go to SQL Databases > Create SQL Database.
+3️ Select Database Name, Server Name, Authentication Mode (SQL/Auth), Compute + Storage.
+4️ Click Review & Create.
+
+Data Import into Azure SQL (with Python)
+
+import pyodbc
+
+server = 'your-azure-server.database.windows.net'
+database = 'your-database'
+username = 'your-username'
+password = 'your-password'
+driver = '{ODBC Driver 17 for SQL Server}'
+
+conn = pyodbc.connect(f'DRIVER={driver};SERVER={server};DATABASE={database};UID={username};PWD={password}')
+cursor = conn.cursor()
+
+# SQL Query
+cursor.execute("SELECT * FROM Customers")
+rows = cursor.fetchall()
+
+for row in rows:
+    print(row)
+
+conn.close()
+
 
