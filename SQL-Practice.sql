@@ -240,7 +240,13 @@ SELECT dbo.GetNameLength('Ismail Hasan Tanjer');
 CREATE VIEW CustomerView AS  
 SELECT CustomerID, Name, Email FROM Customers WHERE Active = 1;
 
+-- Indexes: Helps increase database performance.
 
+--Index Create (Single Column Index)
+CREATE INDEX idx_customer_name ON Customers(Name);
+
+--Index Create (Multiple Columns)
+CREATE INDEX idx_customer_multi ON Customers(Name, Email);
 
 
 
