@@ -250,3 +250,16 @@ CREATE INDEX idx_customer_multi ON Customers(Name, Email);
 
 
 
+--Transactions & ACID Properties
+--Transactions help execute multiple SQL operations together and maintain data integrity.
+
+BEGIN TRANSACTION;  
+
+UPDATE Accounts SET Balance = Balance - 500 WHERE AccountID = 1;  
+UPDATE Accounts SET Balance = Balance + 500 WHERE AccountID = 2;  
+
+IF @@ERROR = 0  
+    COMMIT;  
+ELSE  
+    ROLLBACK;
+
