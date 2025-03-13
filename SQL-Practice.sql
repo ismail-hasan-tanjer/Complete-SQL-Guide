@@ -263,3 +263,16 @@ IF @@ERROR = 0
 ELSE  
     ROLLBACK;
 
+
+--Recursive Queries & Common Table Expressions (CTE)
+--CTE creates a temporary table, which helps in handling recursive queries.
+--CTE Example:
+
+WITH EmployeeHierarchy AS (  
+    SELECT EmployeeID, Name, ManagerID FROM Employees WHERE ManagerID IS NULL  
+    UNION ALL  
+    SELECT e.EmployeeID, e.Name, e.ManagerID FROM Employees e  
+    INNER JOIN EmployeeHierarchy eh ON e.ManagerID = eh.EmployeeID  
+)  
+SELECT * FROM EmployeeHierarchy;
+
