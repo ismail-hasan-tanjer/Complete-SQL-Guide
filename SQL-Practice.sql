@@ -466,3 +466,8 @@ To keep Azure SQL Efficient & Reliable, Monitoring & Automation is required.
 2️⃣ Analyze Error Logs & Query Performance using Azure Log Analytics.
 3️⃣ Setup Azure Alert System to get notified when High CPU Usage, Slow Query, or Security Breach occurs.
 
+ Azure SQL Automation (Auto-Scaling & Backup)
+ az sql db update --resource-group myResourceGroup --server myazuresqlserver --name myDatabase --service-objective P2
+
+** Auto-Scaling Enabled! - Running this command will automatically scale up/down according to the database load.
+
