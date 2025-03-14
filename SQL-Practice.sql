@@ -323,4 +323,12 @@ for row in rows:
 
 conn.close()
 
+2. AWS RDS (Relational Database Service)
+AWS RDS Cloud-Based Managed SQL Database that supports MySQL, PostgreSQL, SQL Server.
+
+ Steps to create AWS RDS:
+1️ Go to AWS Management Console > RDS.
+2️ Select Create Database > Engine Type (MySQL/PostgreSQL/SQL Server).
+3️ Set DB Instance Class, Storage, Authentication Details.
+4️ Click Create Database.
 
