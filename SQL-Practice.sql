@@ -415,5 +415,30 @@ az sql db create --resource-group myResourceGroup --server myazuresqlserver --na
 
 */
 
+-- 3. Import Data and Run Queries in Azure SQL
+-- After creating Azure SQL Database, we can insert, update, and query data using Python.
 
+--Connecting to Azure SQL Server with Python 
+
+import pyodbc
+
+# Azure SQL Server Configuration
+server = 'your-azure-server.database.windows.net'
+database = 'your-database'
+username = 'your-username'
+password = 'your-password'
+driver = '{ODBC Driver 17 for SQL Server}'
+
+# Connection 
+conn = pyodbc.connect(f'DRIVER={driver};SERVER={server};DATABASE={database};UID={username};PWD={password}')
+cursor = conn.cursor()
+
+# SQL Query 
+cursor.execute("SELECT * FROM Customers")
+rows = cursor.fetchall()
+
+for row in rows:
+    print(row)
+
+conn.close()
 
