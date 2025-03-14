@@ -385,3 +385,7 @@ query_result = spark.sql("SELECT category, COUNT(*) FROM bigdata GROUP BY catego
 query_result.show()
 
 
+--Azure SQL: Cloud-Based Managed SQL Guide
+
+--Azure SQL is Microsoft Azure's cloud-based relational database that ensures high availability, scalability, and security. It is used for AI, Machine Learning, Big Data Analytics, and Web Applications.
+
