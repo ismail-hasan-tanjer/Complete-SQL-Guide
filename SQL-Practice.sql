@@ -356,3 +356,22 @@ conn.close()
 Apache Spark is a Big Data Processing Framework, where SQL Queries can be executed using PySpark SQL.*/
 
 -- Install PySpark (Python)
+pip install pyspark
+
+--Creating DataFrame using PySpark SQL
+
+from pyspark.sql import SparkSession
+
+# Spark Session 
+spark = SparkSession.builder.appName("SQL_Integration").getOrCreate()
+
+# DataFrame  (Big Data Processing)
+data = [("Tanjer", 27), ("Rahim", 30), ("Karim", 25)]
+columns = ["Name", "Age"]
+df = spark.createDataFrame(data, columns)
+
+# SQL Query 
+df.createOrReplaceTempView("people")
+result = spark.sql("SELECT * FROM people WHERE Age > 26")
+result.show()
+
