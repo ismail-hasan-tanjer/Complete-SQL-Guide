@@ -408,5 +408,12 @@ query_result.show()
 4️ Click Review & Create.
 */
 
+--Creating Azure SQL Database (CLI Mode)
+/*
+az sql server create --name myazuresqlserver --resource-group myResourceGroup --location eastus --admin-user adminUser --admin-password MyStrongP@ssword!
+az sql db create --resource-group myResourceGroup --server myazuresqlserver --name myDatabase --service-objective S0
+
+*/
+
 
 
