@@ -389,3 +389,5 @@ query_result.show()
 
 --Azure SQL is Microsoft Azure's cloud-based relational database that ensures high availability, scalability, and security. It is used for AI, Machine Learning, Big Data Analytics, and Web Applications.
 
+--1. What is Azure SQL?
+--Azure SQL is a fully managed cloud database built on Microsoft SQL Server. It works like on-premise SQL Server, but server management, backups, and security are handled by Microsoft.
