@@ -391,3 +391,22 @@ query_result.show()
 
 --1. What is Azure SQL?
 --Azure SQL is a fully managed cloud database built on Microsoft SQL Server. It works like on-premise SQL Server, but server management, backups, and security are handled by Microsoft.
+/*
+ Automatic Backups & High Availability
+ Built-in AI & ML Support
+ Scalability & Performance Optimization
+
+*/
+--How to create Azure SQL Database
+--To use Azure SQL, you must first create a SQL Database in the Azure Portal.
+
+-- Steps to create Azure SQL Database (GUI Mode)
+/*
+1️ Login to Azure Portal: portal.azure.com
+2️ Go to SQL Databases > Create SQL Database.
+3️ Select Database Name, Server Name, Authentication Mode (SQL/Auth), Compute + Storage.
+4️ Click Review & Create.
+*/
+
+
+
