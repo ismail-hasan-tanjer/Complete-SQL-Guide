@@ -442,3 +442,18 @@ for row in rows:
 
 conn.close()
 
+/*
+Azure SQL Security & Performance Optimization
+
+Ensuring Security & Performance is very important when using Azure SQL.
+
+✅ Security Best Practices
+🔒 Enable Firewall Rules - Allow access only from specific IPs.
+🔒 Use Managed Identity Authentication - Use Managed Identity instead of User & Password Authentication.
+🔒 Enable Transparent Data Encryption (TDE) - Ensure Data Encryption.
+
+✅ Performance Optimization
+⚡ Use Indexing - Use Indexes to increase Query Performance.
+⚡ Enable Query Performance Insights - Enable Azure's Performance Insights to optimize slow queries.
+⚡ Use Elastic Pool - Place multiple databases in an Elastic Pool for cost-effective scaling.
+*/
