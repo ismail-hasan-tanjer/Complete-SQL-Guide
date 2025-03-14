@@ -443,7 +443,7 @@ for row in rows:
 conn.close()
 
 /*
-Azure SQL Security & Performance Optimization
+4. Azure SQL Security & Performance Optimization
 
 Ensuring Security & Performance is very important when using Azure SQL.
 
@@ -457,3 +457,12 @@ Ensuring Security & Performance is very important when using Azure SQL.
 ⚡ Enable Query Performance Insights - Enable Azure's Performance Insights to optimize slow queries.
 ⚡ Use Elastic Pool - Place multiple databases in an Elastic Pool for cost-effective scaling.
 */
+
+5. Azure SQL Monitoring ও Automation
+To keep Azure SQL Efficient & Reliable, Monitoring & Automation is required.
+
+✅ Azure SQL Database Monitoring
+1️⃣ Track Performance & Query Execution using Azure Monitor.
+2️⃣ Analyze Error Logs & Query Performance using Azure Log Analytics.
+3️⃣ Setup Azure Alert System to get notified when High CPU Usage, Slow Query, or Security Breach occurs.
+
