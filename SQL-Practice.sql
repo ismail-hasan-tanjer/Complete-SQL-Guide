@@ -375,3 +375,13 @@ df.createOrReplaceTempView("people")
 result = spark.sql("SELECT * FROM people WHERE Age > 26")
 result.show()
 
+--Running Data Query from CSV File with PySpark SQL
+
+df = spark.read.csv("big_data.csv", header=True, inferSchema=True)
+df.createOrReplaceTempView("bigdata")
+
+# SQL Query 
+query_result = spark.sql("SELECT category, COUNT(*) FROM bigdata GROUP BY category")
+query_result.show()
+
+
