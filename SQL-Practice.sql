@@ -352,3 +352,7 @@ for row in rows:
 
 conn.close()
 
+/*3. PySpark SQL (Big Data Processing)
+Apache Spark is a Big Data Processing Framework, where SQL Queries can be executed using PySpark SQL.*/
+
+-- Install PySpark (Python)
