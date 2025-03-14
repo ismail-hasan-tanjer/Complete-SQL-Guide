@@ -323,12 +323,32 @@ for row in rows:
 
 conn.close()
 
-2. AWS RDS (Relational Database Service)
+/*2. AWS RDS (Relational Database Service)
 AWS RDS Cloud-Based Managed SQL Database that supports MySQL, PostgreSQL, SQL Server.
 
  Steps to create AWS RDS:
 1️ Go to AWS Management Console > RDS.
 2️ Select Create Database > Engine Type (MySQL/PostgreSQL/SQL Server).
 3️ Set DB Instance Class, Storage, Authentication Details.
-4️ Click Create Database.
+4️ Click Create Database.*/
+
+--Running SQL Queries with Python on AWS RDS
+import pymysql
+
+host = "your-rds-endpoint.amazonaws.com"
+user = "your-username"
+password = "your-password"
+database = "your-database"
+
+conn = pymysql.connect(host=host, user=user, password=password, database=database)
+cursor = conn.cursor()
+
+# SQL Query
+cursor.execute("SELECT * FROM Employees")
+rows = cursor.fetchall()
+
+for row in rows:
+    print(row)
+
+conn.close()
 
