@@ -498,3 +498,5 @@ SET STATISTICS TIME ON;
 
 EXPLAIN SELECT * FROM Customers WHERE City = 'Dhaka';
 
+
+
