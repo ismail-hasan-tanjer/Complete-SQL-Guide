@@ -476,3 +476,11 @@ Azure SQL Query Optimization Guide
 
 Azure SQL Query Optimization is a set of performance tuning techniques that ensure reducing query execution time, utilizing indexing, and increasing query efficiency.
 
+
+
+1. 5 Steps to Check Query Performance Issue
+✅ Use Query Execution Plan
+✅ Use Indexes (Clustered & Non-Clustered)
+✅ Use Partitioning & Caching
+✅ Use Query Rewrite & Stored Procedures
+✅ Enable Azure SQL Performance Insights & Query Store
