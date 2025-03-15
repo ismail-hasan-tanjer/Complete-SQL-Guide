@@ -484,3 +484,17 @@ Azure SQL Query Optimization is a set of performance tuning techniques that ensu
 ✅ Use Partitioning & Caching
 ✅ Use Query Rewrite & Stored Procedures
 ✅ Enable Azure SQL Performance Insights & Query Store
+
+
+2. Analyze Query Execution Plan
+The Execution Plan in Azure SQL shows you how SQL Server is executing a query.
+It helps to find Indexes, Joins, and Performance Bottlenecks.
+
+✅ SQL Query to run the Execution Plan:
+
+SET STATISTICS IO ON;
+
+SET STATISTICS TIME ON;
+
+EXPLAIN SELECT * FROM Customers WHERE City = 'Dhaka';
+
