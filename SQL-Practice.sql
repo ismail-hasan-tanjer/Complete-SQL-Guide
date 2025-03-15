@@ -471,3 +471,8 @@ To keep Azure SQL Efficient & Reliable, Monitoring & Automation is required.
 
 ** Auto-Scaling Enabled! - Running this command will automatically scale up/down according to the database load.
 
+
+Azure SQL Query Optimization Guide
+
+Azure SQL Query Optimization is a set of performance tuning techniques that ensure reducing query execution time, utilizing indexing, and increasing query efficiency.
+
