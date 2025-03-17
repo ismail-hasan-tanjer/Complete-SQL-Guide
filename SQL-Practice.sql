@@ -515,3 +515,8 @@ CREATE NONCLUSTERED INDEX idx_customer_city ON Customers(City);
 ✅ Query to remove Index:
 
 DROP INDEX idx_customer_city ON Customers;
+
+--4. Using Partitioning & Caching for Query Optimization
+✅ Partitioning:
+When working with large tables (Large Datasets), Partitioning is used to reduce Query Execution Time.
+
