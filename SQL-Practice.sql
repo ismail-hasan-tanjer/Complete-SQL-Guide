@@ -525,3 +525,6 @@ When working with large tables (Large Datasets), Partitioning is used to reduce 
 CREATE PARTITION FUNCTION pfOrderDate (DATE)
 AS RANGE LEFT FOR VALUES ('2023-01-01', '2024-01-01');
 
+--Caching & Query Store:
+Uses Azure SQL Query Store to cache frequent queries to reduce execution time.
+
