@@ -528,3 +528,8 @@ AS RANGE LEFT FOR VALUES ('2023-01-01', '2024-01-01');
 --Caching & Query Store:
 Uses Azure SQL Query Store to cache frequent queries to reduce execution time.
 
+--code 
+
+ALTER DATABASE myDatabase  
+SET QUERY_STORE = ON;
+
