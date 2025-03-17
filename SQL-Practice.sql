@@ -500,3 +500,18 @@ EXPLAIN SELECT * FROM Customers WHERE City = 'Dhaka';
 
 
 
+3. Indexing: The most important step in Query Optimization
+✅ Clustered Index: Works as the Primary Key of the Table.
+✅ Non-Clustered Index: Used to execute Search Query faster.
+✅ Filtered Index: Only for Specific Columns.
+
+✅ SQL Query to create Index:
+
+-- Clustered Index
+CREATE CLUSTERED INDEX idx_customer_id ON Customers(CustomerID);
+
+-- Non-Clustered Index
+CREATE NONCLUSTERED INDEX idx_customer_city ON Customers(City);
+✅ Query to remove Index:
+
+DROP INDEX idx_customer_city ON Customers;
