@@ -533,3 +533,14 @@ Uses Azure SQL Query Store to cache frequent queries to reduce execution time.
 ALTER DATABASE myDatabase  
 SET QUERY_STORE = ON;
 
+Using Query Rewrite & Stored Procedures
+✅ Efficient Query Writing:
+❌ Bad Query:
+
+SELECT * FROM Orders WHERE YEAR(OrderDate) = 2024;
+
+Optimized Query:
+
+SELECT * FROM Orders WHERE OrderDate >= '2024-01-01' AND OrderDate < '2025-01-01';
+
+Optimizing Query using Stored Procedure:
