@@ -520,3 +520,8 @@ DROP INDEX idx_customer_city ON Customers;
 ✅ Partitioning:
 When working with large tables (Large Datasets), Partitioning is used to reduce Query Execution Time.
 
+--code  
+
+CREATE PARTITION FUNCTION pfOrderDate (DATE)
+AS RANGE LEFT FOR VALUES ('2023-01-01', '2024-01-01');
+
